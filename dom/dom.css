@@ -1,15 +1,23 @@
 /* section card */
 
 .card {
-    display: flex;
+    /* display: flex; */
+    margin: 1px;
+
+
 }
 
 .card img {
-    width: 100px;
+    width: 150px;
+    
 }
 
 .cards {
-    margin: 5% 30%;
+    margin: 5% 1%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
 .unitt-price {
